@@ -75,7 +75,7 @@
 
 @code{
 
-    public string FileName { get; set; } = "";
+    public static string FileName { get; set; } = "";
     public string ErrorMessage { get; set; } = "";
 
 
@@ -85,9 +85,9 @@
 
 
     // Chart Variables
-    public ChartOptions Options = new ChartOptions();
-    public List<ChartSeries> Series = new List<ChartSeries>();
-    public string[] XAxisLabels = Array.Empty<string>();
+    public static ChartOptions Options = new ChartOptions();
+    public static List<ChartSeries> Series = new List<ChartSeries>();
+    public static string[] XAxisLabels = Array.Empty<string>();
 
     /*
     public List<ReaderEvent> testEvents = new List<ReaderEvent>()
